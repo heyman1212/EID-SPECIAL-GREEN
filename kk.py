@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from green import King
-    King()
+    from green import Subscraption
+Subscraption()
 elif bit == '32bit':
-    from green import King
-    King()
+    from green import Subscraption
+Subscraption()
